@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body {
+
+    background-color: #e0dfdf8a;
+}
+
+h1 {
+    margin-top: 5vh;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+/* alinhamento das boxs */
+
+.container {
+    margin: 10vh auto;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    height: 45vh;
+    width: 32vw;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+/* box 1 - shingeki no kyojin - */
+
+.box-1 h3 {
+    font-family: 'Yellowtail', cursive;
+}
+
+.box-1 .imagem-1 {
+    height: 35vh;
+    width: 40%;
+
+
+}
+
+.box-1 .imagem-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* box 2 - cortes de espinhos e rosas */
+
+
+.box-2 h3 {
+    font-family: 'Yellowtail', cursive;
+}
+
+.box-2 .imagem-2 {
+    height: 40vh;
+    width: 40%;
+
+}
+
+.box-2 .imagem-2 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* box 3 - trono de vidro */
+
+
+.box-3 h3 {
+    font-family: 'Yellowtail', cursive;
+}
+
+.box-3 .imagem-3 {
+    height: 40vh;
+    width: 40%;
+
+
+}
+
+.box-3 .imagem-3 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* BOTÃO */
+
+.botao {
+    margin: 0 auto;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao input {
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
