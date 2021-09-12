@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 211, 4);
+}
+
+h1 {
+    text-align: center;
+    padding: 7px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 61, 1);
+}
+
+h3 {
+    text-align: center;
+    padding: 7px 7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+
+}
+
+/* Alinhamento */
+.container {
+    margin: 0 auto;
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* imagem */
+
+.imagem-1 {
+    height: 40vh;
+    width: 40vw;
+
+}
+
+.imagem-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* opcoes */
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.opcoes span {
+    padding: 3px;
+    font-size: 20px;
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.opcoes input[type="button"] {
+    margin-top: 5vh;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    border-color: yellow;
+    background-color: rgb(3, 201, 3);
+    
+}
+
+hr{
+    margin: 0 auto;
+    width: 70%;
+    border-color: greenyellow;
+}
+
+
+/* Opções Principais */
+
+.opcoes-principais{
+    margin: 0 auto;
+    height: 10vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opcoes-principais input[type="button"]{
+
+    height: 5vh;
+    width: 8vw;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: yellow;
+    border-color: yellow;
+    background-color: rgb(3, 201, 3);
+   
+}
